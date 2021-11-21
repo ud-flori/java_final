@@ -13,6 +13,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -33,7 +34,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager">
     <configuration name="CliApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -65,5 +66,99 @@
       <updated>1637490313643</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:org.slf4j:jul-to-slf4j" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.xml.bind:jakarta.xml.bind-api" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.shell:spring-shell-standard" />
+    <option featureType="dependencySupport" implementationName="java:org.javassist:javassist" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-starter-validation" />
+    <option featureType="dependencySupport" implementationName="java:org.hamcrest:hamcrest-core" />
+    <option featureType="dependencySupport" implementationName="java:org.junit.platform:junit-platform-engine" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-starter-data-jpa" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.shell:spring-shell-core" />
+    <option featureType="dependencySupport" implementationName="java:com.zaxxer:HikariCP" />
+    <option featureType="dependencySupport" implementationName="java:org.jboss:jandex" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-aspects" />
+    <option featureType="dependencySupport" implementationName="java:com.google.j2objc:j2objc-annotations" />
+    <option featureType="dependencySupport" implementationName="java:com.h2database:h2" />
+    <option featureType="dependencySupport" implementationName="java:io.cucumber:create-meta" />
+    <option featureType="dependencySupport" implementationName="java:org.dom4j:dom4j" />
+    <option featureType="dependencySupport" implementationName="java:org.aspectj:aspectjweaver" />
+    <option featureType="dependencySupport" implementationName="java:io.cucumber:cucumber-gherkin" />
+    <option featureType="dependencySupport" implementationName="java:org.jline:jline" />
+    <option featureType="dependencySupport" implementationName="java:io.cucumber:datatable" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.shell:spring-shell-jcommander-adapter" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-beans" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml:classmate" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate.common:hibernate-commons-annotations" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate:hibernate-core" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.shell:spring-shell-standard-commands" />
+    <option featureType="dependencySupport" implementationName="java:org.glassfish.jaxb:jaxb-runtime" />
+    <option featureType="dependencySupport" implementationName="java:io.cucumber:cucumber-gherkin-messages" />
+    <option featureType="dependencySupport" implementationName="java:io.cucumber:cucumber-java" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-jpa" />
+    <option featureType="dependencySupport" implementationName="java:ch.qos.logback:logback-classic" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.validation:jakarta.validation-api" />
+    <option featureType="dependencySupport" implementationName="java:com.google.errorprone:error_prone_annotations" />
+    <option featureType="dependencySupport" implementationName="java:org.glassfish.jaxb:txw2" />
+    <option featureType="dependencySupport" implementationName="java:org.opentest4j:opentest4j" />
+    <option featureType="dependencySupport" implementationName="java:io.cucumber:cucumber-junit" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.shell:spring-shell-table" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-tx" />
+    <option featureType="dependencySupport" implementationName="java:junit:junit" />
+    <option featureType="dependencySupport" implementationName="java:org.junit.jupiter:junit-jupiter-engine" />
+    <option featureType="dependencySupport" implementationName="java:com.google.guava:listenablefuture" />
+    <option featureType="dependencySupport" implementationName="java:org.jline:jline-terminal-jna" />
+    <option featureType="dependencySupport" implementationName="java:org.jline:jline-terminal" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-jcl" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-starter-logging" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-starter-aop" />
+    <option featureType="dependencySupport" implementationName="java:ch.qos.logback:logback-core" />
+    <option featureType="dependencySupport" implementationName="java:org.checkerframework:checker-qual" />
+    <option featureType="dependencySupport" implementationName="java:io.cucumber:cucumber-plugin" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate.validator:hibernate-validator" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.logging.log4j:log4j-to-slf4j" />
+    <option featureType="dependencySupport" implementationName="java:org.junit.platform:junit-platform-commons" />
+    <option featureType="dependencySupport" implementationName="java:io.cucumber:docstring" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.annotation:jakarta.annotation-api" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.shell:spring-shell-shell1-adapter" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-starter" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:org.jboss.logging:jboss-logging" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-orm" />
+    <option featureType="dependencySupport" implementationName="java:org.slf4j:slf4j-api" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.shell:spring-shell-starter" />
+    <option featureType="dependencySupport" implementationName="java:net.java.dev.jna:jna" />
+    <option featureType="dependencySupport" implementationName="java:com.google.code.findbugs:jsr305" />
+    <option featureType="dependencySupport" implementationName="java:io.cucumber:messages" />
+    <option featureType="dependencySupport" implementationName="java:com.google.guava:guava" />
+    <option featureType="dependencySupport" implementationName="java:org.yaml:snakeyaml" />
+    <option featureType="dependencySupport" implementationName="java:antlr:antlr" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-autoconfigure" />
+    <option featureType="dependencySupport" implementationName="java:io.cucumber:cucumber-core" />
+    <option featureType="dependencySupport" implementationName="java:io.cucumber:tag-expressions" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-context" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-expression" />
+    <option featureType="dependencySupport" implementationName="java:com.sun.istack:istack-commons-runtime" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-aop" />
+    <option featureType="dependencySupport" implementationName="java:com.google.guava:failureaccess" />
+    <option featureType="dependencySupport" implementationName="java:org.junit.jupiter:junit-jupiter-api" />
+    <option featureType="dependencySupport" implementationName="java:io.cucumber:cucumber-expressions" />
+    <option featureType="dependencySupport" implementationName="java:io.cucumber:html-formatter" />
+    <option featureType="dependencySupport" implementationName="java:org.apiguardian:apiguardian-api" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-jdbc" />
+    <option featureType="dependencySupport" implementationName="java:io.cucumber:cucumber-picocontainer" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.tomcat.embed:tomcat-embed-el" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot-starter-jdbc" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.transaction:jakarta.transaction-api" />
+    <option featureType="dependencySupport" implementationName="java:org.picocontainer:picocontainer" />
+    <option featureType="dependencySupport" implementationName="java:org.slf4j:slf4j-simple" />
+    <option featureType="dependencySupport" implementationName="java:com.sun.activation:jakarta.activation" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.logging.log4j:log4j-api" />
+    <option featureType="dependencySupport" implementationName="java:net.bytebuddy:byte-buddy" />
   </component>
 </project>
