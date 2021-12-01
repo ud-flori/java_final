@@ -4,7 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14a49317-1adc-4b12-955d-25c8927c8fcd" name="Changes" comment="" />
+    <list default="true" id="14a49317-1adc-4b12-955d-25c8927c8fcd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/domain/theatre/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/domain/theatre/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/domain/theatre/Screening.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/domain/theatre/ScreeningInformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-shell.log" beforeDir="false" afterPath="$PROJECT_DIR$/spring-shell.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service-acceptance-tests/target/test-classes/com/training/epam/ticketservice/at/GenericCliProcessStepDefs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service-acceptance-tests/target/test-classes/com/training/epam/ticketservice/at/ProcessUnderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service-acceptance-tests/target/test-classes/com/training/epam/ticketservice/at/TestExecutor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/AccountDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/MovieDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/RoomDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/ScreeningDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/impl/AccountDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/impl/MovieDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/impl/RoomDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/impl/ScreeningDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/repository/AccountRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/repository/MovieRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/repository/RoomRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/repository/ScreeningRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/repository/entity/AccountEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/repository/entity/MovieEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/repository/entity/RoomEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/repository/entity/ScreeningEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/presentation/cli/CliApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/presentation/cli/TicketServicePromptProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/presentation/cli/commandhandler/AccountCommandHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/presentation/cli/commandhandler/MovieCommandHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/presentation/cli/commandhandler/RoomCommandHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/presentation/cli/commandhandler/ScreeningCommandHandler.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,8 +55,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="21DzBHopD4HtzMwODsyY65l7553" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -34,7 +78,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunManager">
     <configuration name="CliApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -160,5 +204,16 @@
     <option featureType="dependencySupport" implementationName="java:com.sun.activation:jakarta.activation" />
     <option featureType="dependencySupport" implementationName="java:org.apache.logging.log4j:log4j-api" />
     <option featureType="dependencySupport" implementationName="java:net.bytebuddy:byte-buddy" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
