@@ -1,5 +1,9 @@
 package com.epam.training.ticketservice.dao.repository;
 
 
-public interface MovieRepository {
+import com.epam.training.ticketservice.dao.repository.entity.MovieEntity;
+import org.springframework.data.repository.CrudRepository;
+
+public interface MovieRepository extends CrudRepository<MovieEntity, String> {
+
 }

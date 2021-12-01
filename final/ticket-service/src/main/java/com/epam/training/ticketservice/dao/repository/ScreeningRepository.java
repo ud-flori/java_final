@@ -1,4 +1,8 @@
 package com.epam.training.ticketservice.dao.repository;
 
-public interface ScreeningRepository {
+import com.epam.training.ticketservice.dao.repository.entity.ScreeningEntity;
+import com.epam.training.ticketservice.dao.repository.entity.ScreeningId;
+import org.springframework.data.repository.CrudRepository;
+
+public interface ScreeningRepository extends CrudRepository<ScreeningEntity, ScreeningId> {
 }

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.29">
+<file name="C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\main\java\com\epam\training\ticketservice\dao\AccountDao.java">
+</file>
+<file name="C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\main\java\com\epam\training\ticketservice\dao\impl\AccountDaoImpl.java">
+</file>
+<file name="C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\main\java\com\epam\training\ticketservice\dao\impl\MovieDaoImpl.java">
+</file>
+<file name="C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\main\java\com\epam\training\ticketservice\dao\impl\RoomDaoImpl.java">
+</file>
+<file name="C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\main\java\com\epam\training\ticketservice\dao\impl\ScreeningDaoImpl.java">
+<error line="45" severity="warning" message="&apos;block&apos; child has incorrect indentation level 28, expected level should be 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="46" severity="warning" message="&apos;block&apos; child has incorrect indentation level 28, expected level should be 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="48" severity="warning" message="&apos;block&apos; child has incorrect indentation level 28, expected level should be 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="61" severity="warning" message="&apos;block rcurly&apos; has incorrect indentation level 24, expected level should be 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\main\java\com\epam\training\ticketservice\dao\MovieDao.java">
+</file>
+<file name="C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\main\java\com\epam\training\ticketservice\dao\repository\AccountRepository.java">
+</file>
+<file name="C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\main\java\com\epam\training\ticketservice\dao\repository\entity\AccountEntity.java">
+</file>
+<file name="C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\main\java\com\epam\training\ticketservice\dao\repository\entity\MovieEntity.java">
+</file>
+<file name="C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\main\java\com\epam\training\ticketservice\dao\repository\entity\RoomEntity.java">
+</file>
+<file name="C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\main\java\com\epam\training\ticketservice\dao\repository\entity\ScreeningEntity.java">
+<error line="3" severity="warning" message="Using the &apos;.*&apos; form of import should be avoided - javax.persistence.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\main\java\com\epam\training\ticketservice\dao\repository\entity\ScreeningId.java">
+</file>
+<file name="C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\main\java\com\epam\training\ticketservice\dao\repository\MovieRepository.java">
+</file>
+<file name="C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\main\java\com\epam\training\ticketservice\dao\repository\RoomRepository.java">
+</file>
+<file name="C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\main\java\com\epam\training\ticketservice\dao\repository\ScreeningRepository.java">
+</file>
+<file name="C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\main\java\com\epam\training\ticketservice\dao\RoomDao.java">
+</file>
+<file name="C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\main\java\com\epam\training\ticketservice\dao\ScreeningDao.java">
+</file>
+<file name="C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\main\java\com\epam\training\ticketservice\domain\theatre\Movie.java">
+</file>
+<file name="C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\main\java\com\epam\training\ticketservice\domain\theatre\Room.java">
+</file>
+<file name="C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\main\java\com\epam\training\ticketservice\domain\theatre\Screening.java">
+</file>
+<file name="C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\main\java\com\epam\training\ticketservice\domain\theatre\ScreeningInformation.java">
+</file>
+<file name="C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\main\java\com\epam\training\ticketservice\presentation\cli\CliApplication.java">
+</file>
+<file name="C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\main\java\com\epam\training\ticketservice\presentation\cli\commandhandler\AccountCommandHandler.java">
+<error line="12" column="71" severity="warning" message="WhitespaceAround: &apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="17" column="40" severity="warning" message="WhitespaceAround: &apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="22" column="36" severity="warning" message="WhitespaceAround: &apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\main\java\com\epam\training\ticketservice\presentation\cli\commandhandler\MovieCommandHandler.java">
+</file>
+<file name="C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\main\java\com\epam\training\ticketservice\presentation\cli\commandhandler\RoomCommandHandler.java">
+<error line="23" severity="warning" message="&apos;method def&apos; child has incorrect indentation level 7, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\main\java\com\epam\training\ticketservice\presentation\cli\commandhandler\ScreeningCommandHandler.java">
+</file>
+<file name="C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\main\java\com\epam\training\ticketservice\presentation\cli\TicketServicePromptProvider.java">
+</file>
+<file name="C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\main\java\com\epam\training\ticketservice\service\impl\Flag.java">
+<error line="7" column="11" severity="warning" message="WhitespaceAround: &apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="11" column="38" severity="warning" message="WhitespaceAround: &apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="15" column="29" severity="warning" message="WhitespaceAround: &apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\main\java\com\epam\training\ticketservice\service\impl\MovieServiceImpl.java">
+</file>
+<file name="C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\main\java\com\epam\training\ticketservice\service\impl\RoomServiceImpl.java">
+</file>
+<file name="C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\main\java\com\epam\training\ticketservice\service\impl\ScreeningServiceImpl.java">
+</file>
+<file name="C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\main\java\com\epam\training\ticketservice\service\MovieService.java">
+</file>
+<file name="C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\main\java\com\epam\training\ticketservice\service\RoomService.java">
+</file>
+<file name="C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\main\java\com\epam\training\ticketservice\service\ScreeningService.java">
+</file>
+<file name="C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\main\resources\application.properties">
+</file>
+</checkstyle>

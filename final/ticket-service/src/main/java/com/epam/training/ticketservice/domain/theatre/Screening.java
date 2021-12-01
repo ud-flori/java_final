@@ -1,6 +1,7 @@
 package com.epam.training.ticketservice.domain.theatre;
 
 import java.util.Calendar;
+import java.util.Date;
 
 public final class Screening {
 
@@ -8,9 +9,9 @@ public final class Screening {
 
     private Room room;
 
-    private Calendar startDateAndTime;
+    private Date startDateAndTime;
 
-    public Screening(Movie movie, Room room, Calendar startDateAndTime) {
+    public Screening(Movie movie, Room room, Date startDateAndTime) {
         this.movie = movie;
         this.room = room;
         this.startDateAndTime = startDateAndTime;
@@ -24,7 +25,7 @@ public final class Screening {
         return room;
     }
 
-    public Calendar getStartDateAndTime() {
+    public Date getStartDateAndTime() {
         return startDateAndTime;
     }
 }

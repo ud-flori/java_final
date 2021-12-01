@@ -1,4 +1,6 @@
 package com.epam.training.ticketservice.dao.impl;
 
-public class AccountDaoImpl {
+import com.epam.training.ticketservice.dao.AccountDao;
+
+public class AccountDaoImpl implements AccountDao {
 }
