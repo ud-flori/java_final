@@ -3,6 +3,7 @@ package com.epam.training.ticketservice.service.impl;
 import com.epam.training.ticketservice.dao.MovieDao;
 import com.epam.training.ticketservice.domain.theatre.Movie;
 import com.epam.training.ticketservice.service.MovieService;
+import com.epam.training.ticketservice.service.component.AdminAccount;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -12,10 +13,12 @@ import java.util.List;
 public class MovieServiceImpl implements MovieService {
 
     private MovieDao movieDao;
+    private AdminAccount admin;
 
     @Autowired
-    public MovieServiceImpl(MovieDao movieDao) {
+    public MovieServiceImpl(MovieDao movieDao, AdminAccount admin) {
         this.movieDao = movieDao;
+        this.admin = admin;
     }
 
 
@@ -25,23 +28,24 @@ public class MovieServiceImpl implements MovieService {
     }
 
     @Override
-    public Flag createMovie(String title, String genre, int length, String token) {
-        return null;
+    public void createMovie(String title, String genre, int length) {
+        if(admin.isSignedIn()) {
+            movieDao.createMovie(new Movie(title, genre, length));
+        }
     }
 
     @Override
-    public List<Movie> getAllMovies() {
-        return null;
+    public void updateMovie(String title, String genre, int length) {
+        if(admin.isSignedIn()) {
+            movieDao.updateMovie(new Movie(title, genre, length));
+        }
     }
 
     @Override
-    public Flag updateMovie(String title, String genre, int length, String token) {
-        return null;
-    }
-
-    @Override
-    public Flag deleteMovie(String title, String token) {
-        return null;
+    public void deleteMovie(String title) {
+        if(admin.isSignedIn()) {
+            movieDao.deleteMovie(title);
+        }
     }
 
 

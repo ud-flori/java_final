@@ -23,8 +23,8 @@ public class ScreeningCommandHandler {
 
     @ShellMethod(value = "create screening <film címe> <terem neve> <vetítés kezdetének dátuma és ideje, "
             + "YYYY-MM-dd HH:mm formátumban>", key = "create screening")
-    public String createScreening(String movieTitle, String roomName, String startDateAndTime) {
-        return "Alright";
+    public void createScreening(String movieTitle, String roomName, String startDateAndTime) {
+       // screeningCommandService.createScreening(movieTitle,roomName,startDateAndTime);
     }
 
     @ShellMethod(value = "Lists all the screenings", key = "list screenings")
@@ -50,7 +50,7 @@ public class ScreeningCommandHandler {
 
     @ShellMethod(value = "delete screening <film címe> <terem neve> <vetítés kezdetének dátuma és ideje, "
             + "YYYY-MM-dd HH:mm formátumban>", key = "delete screening")
-    public String deleteScreening(String movieTitle, String roomName, String startDateAndTime) {
-        return "Alright";
+    public void deleteScreening(String movieTitle, String roomName, String startDateAndTime) {
+        //screeningCommandService.deleteScreening(movieTitle,roomName,startDateAndTime);
     }
 }

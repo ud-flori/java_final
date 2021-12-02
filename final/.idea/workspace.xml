@@ -5,57 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14a49317-1adc-4b12-955d-25c8927c8fcd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/dao/repository/entity/ScreeningId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/MovieService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/RoomService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/ScreeningService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/impl/Flag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/impl/MovieServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/impl/RoomServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/impl/ScreeningServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticket-service/src/test/java/com/epam/training/ticketservice/service/impl/Flag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticket-service/src/test/java/com/epam/training/ticketservice/service/impl/MovieServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticket-service/src/test/java/com/epam/training/ticketservice/service/impl/RoomServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticket-service/src/test/java/com/epam/training/ticketservice/service/impl/ScreeningServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticket-service/src/test/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/component/AdminAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/impl/AccountServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-shell.log" beforeDir="false" afterPath="$PROJECT_DIR$/spring-shell.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/dao/MovieDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/dao/MovieDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/dao/RoomDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/dao/RoomDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/dao/AccountDao.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/dao/ScreeningDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/dao/ScreeningDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/dao/impl/AccountDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/dao/impl/AccountDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/dao/impl/AccountDaoImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/dao/impl/MovieDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/dao/impl/MovieDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/dao/impl/RoomDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/dao/impl/RoomDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/dao/impl/ScreeningDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/dao/impl/ScreeningDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/dao/repository/MovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/dao/repository/MovieRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/dao/repository/RoomRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/dao/repository/RoomRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/dao/repository/ScreeningRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/dao/repository/ScreeningRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/dao/repository/entity/MovieEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/dao/repository/entity/MovieEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/dao/repository/entity/RoomEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/dao/repository/entity/RoomEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/dao/repository/entity/ScreeningEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/dao/repository/entity/ScreeningEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/domain/theatre/Screening.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/domain/theatre/Screening.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/presentation/cli/CliApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/presentation/cli/CliApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/dao/repository/AccountRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/dao/repository/entity/AccountEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/presentation/cli/commandhandler/AccountCommandHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/presentation/cli/commandhandler/AccountCommandHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/presentation/cli/commandhandler/MovieCommandHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/presentation/cli/commandhandler/MovieCommandHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/presentation/cli/commandhandler/RoomCommandHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/presentation/cli/commandhandler/RoomCommandHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/presentation/cli/commandhandler/ScreeningCommandHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/presentation/cli/commandhandler/ScreeningCommandHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/MovieDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/MovieDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/RoomDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/RoomDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/MovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/RoomService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/RoomService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/ScreeningService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/ScreeningService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/impl/Flag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/impl/MovieServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/impl/MovieServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/impl/RoomServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/impl/RoomServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/impl/ScreeningServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/impl/ScreeningServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/ScreeningDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/ScreeningDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/impl/AccountDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/impl/AccountDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/impl/AccountDaoImpl.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/impl/MovieDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/impl/MovieDaoImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/impl/RoomDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/impl/RoomDaoImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/impl/ScreeningDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/impl/ScreeningDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/repository/MovieRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/repository/MovieRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/repository/RoomRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/repository/RoomRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/repository/ScreeningRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/repository/ScreeningRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/repository/entity/MovieEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/repository/entity/MovieEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/repository/entity/RoomEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/repository/entity/RoomEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/repository/entity/ScreeningEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/repository/entity/ScreeningEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/presentation/cli/CliApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/presentation/cli/CliApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/repository/AccountRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/dao/repository/entity/AccountEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/presentation/cli/commandhandler/AccountCommandHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/presentation/cli/commandhandler/AccountCommandHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/presentation/cli/commandhandler/MovieCommandHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/presentation/cli/commandhandler/MovieCommandHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/presentation/cli/commandhandler/RoomCommandHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/presentation/cli/commandhandler/RoomCommandHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/presentation/cli/commandhandler/ScreeningCommandHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/presentation/cli/commandhandler/ScreeningCommandHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/service/MovieService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/service/MovieService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/service/RoomService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/service/RoomService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/service/ScreeningService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/service/ScreeningService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/service/impl/Flag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/service/impl/MovieServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/service/impl/MovieServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/service/impl/RoomServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/service/impl/RoomServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/service/impl/ScreeningServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/service/impl/ScreeningServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,8 +56,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -80,9 +72,6 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="21DzBHopD4HtzMwODsyY65l7553" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -241,6 +230,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/final$CliApplication.ic" NAME="CliApplication Coverage Results" MODIFIED="1638379665067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

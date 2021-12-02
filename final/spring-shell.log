@@ -28,3 +28,74 @@
 1638383536970:list rooms
 1638383544171:list screenings
 1638383625337:exit
+1638471413454:sign in privileged
+1638471419639:describe account
+1638471426039:sign in privileged admin nimda
+1638471432728:sign in privileged admin admin
+1638471445911:describe account
+1638471454534:log out
+1638471456246:logout
+1638471459605:sign out
+1638471464103:describe account
+1638471466445:exit
+1638475464003:describe account
+1638475625695:sign out
+1638475629695:describe account
+1638475632014:sign in
+1638475638278:sign in admin nimda
+1638475646031:sign in privileged
+1638475653512:sign in privileged admin nimda
+1638475665886:describe account
+1638475673631:sign in privileged admin admin
+1638475676927:describe account
+1638475683958:sign out
+1638475688002:describe account
+1638475839749:exit
+1638477362083:list movies
+1638477378839:create movie Asd drama 450
+1638477381846:list movies
+1638477387943:sign in privileged admin admin
+1638477391812:list movies
+1638477401656:create movie Interstellar fantasy 200
+1638477403695:list movies
+1638477637215:describe account
+1638477642344:list movies
+1638477644790:create movie
+1638477649439:create movie asd
+1638477657495:create movie Valami film 120
+1638477659974:list movies
+1638477900436:create movie Interstellar
+1638477905040:sign in privileged admin admin
+1638477915055:create movie Interstellar scifi 120
+1638477917254:list movies
+1638479661634:create room
+1638479666943:create room Elsoterem
+1638479674362:create room Elsoterem 2 2
+1638479690367:create movie valami asd 1
+1638479693237:list movies
+1638479698871:sign in privileged admin admin
+1638479704247:create movie valami asd 2
+1638479706382:list movies
+1638479712971:create movie valami dsa 1
+1638479715370:list movies
+1638479718419:delete movie
+1638479730120:delete valami asd 2
+1638479737112:delete movie valami asd 2
+1638479743486:list movies
+1638479749141:CLEAR
+1638479750333:cls
+1638479753677:list movies
+1638479762254:create movie nemtudom asd 2
+1638479765277:list movies
+1638479785898:update movie
+1638479793231:update movie valami
+1638479817791:delete movie valami
+1638479820270:list movies
+1638479824292:delete movie nemtudom
+1638479826446:list movies
+1638479830142:sign out
+1638479832014:list movies
+1638479840958:create movie valami a 1
+1638479843288:list movies
+1638479851273:list rooms
+1638479858214:create room Terem 12 25

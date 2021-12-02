@@ -19,8 +19,8 @@ public class RoomCommandHandler {
     }
 
     @ShellMethod(value = "create room <terem neve> <széksorok száma> <szék oszlopok száma>", key = "create room")
-    public String createRoom(String name, int rows, int columns) {
-       return "Alright";
+    public void createRoom(String name, int rows, int columns) {
+      roomCommandsService.createRoom(name,rows,columns);
     }
 
     @ShellMethod(value = "Lists all the rooms", key = "list rooms")
@@ -42,12 +42,12 @@ public class RoomCommandHandler {
 
 
     @ShellMethod(value = "update room <terem neve> <széksorok száma> <szék oszlopok száma>", key = "update room")
-    public String updateRoom(String name, int rows, int columns) {
-        return "Alright";
+    public void updateRoom(String name, int rows, int columns) {
+        roomCommandsService.updateRoom(name,rows,columns);
     }
 
     @ShellMethod(value = "delete room <terem neve>", key = "delete room")
-    public String deleteRoom(String name) {
-        return "Alright";
+    public void deleteRoom(String name) {
+        roomCommandsService.deleteRoom(name);
     }
 }

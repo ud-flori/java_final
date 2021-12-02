@@ -19,11 +19,10 @@ public class MovieCommandHandler {
         this.movieCommandsService = movieCommandsService;
     }
 
-    //TODO
+
     @ShellMethod(value = "create movie <film címe> <műfaj> <vetítés hossza percben>", key = "create movie")
-    public String createMovie(String title, String genre, int length) {
-        //return movieCommandsService.createMovie(title, genre, length);
-        return "Alright";
+    public void createMovie(String title, String genre, int length) {
+        movieCommandsService.createMovie(title, genre, length);
     }
 
     @ShellMethod(value = "Lists all the movies", key = "list movies")
@@ -45,13 +44,13 @@ public class MovieCommandHandler {
 
     //TODO
     @ShellMethod(value = "update movie <film címe> <műfaj> <vetítés hossza percben>", key = "update movie")
-    public String updateMovie(String title, String genre, int length) {
-        return "Alright";
+    public void updateMovie(String title, String genre, int length) {
+        movieCommandsService.updateMovie(title,genre,length);
     }
 
     //TODO
     @ShellMethod(value = "delete movie <film címe>", key = "delete movie")
-    public String deleteMovie(String title) {
-        return "Alright";
+    public void deleteMovie(String title) {
+        movieCommandsService.deleteMovie(title);
     }
 }

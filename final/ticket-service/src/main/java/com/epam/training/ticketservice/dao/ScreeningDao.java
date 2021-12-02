@@ -11,8 +11,6 @@ public interface ScreeningDao {
 
     Collection<Screening> readAll();
 
-    void updateScreening(ScreeningInformation screening);
-
     void deleteScreening(ScreeningInformation screening);
 
 }
