@@ -18,6 +18,7 @@ public class RoomServiceImpl implements RoomService {
     @Autowired
     public RoomServiceImpl(RoomDao roomDao, AdminAccount admin) {
         this.roomDao = roomDao;
+        this.admin = admin;
     }
 
 
