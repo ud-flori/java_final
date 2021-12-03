@@ -1,4 +1,6 @@
 com\epam\training\ticketservice\service\impl\ScreeningServiceImplTest.class
 com\epam\training\ticketservice\service\impl\MovieServiceImplTest.class
+com\epam\training\ticketservice\domain\theatre\ScreeningInformationTest.class
 com\epam\training\ticketservice\service\impl\RoomServiceImplTest.class
 com\epam\training\ticketservice\service\impl\AccountServiceImplTest.class
+com\epam\training\ticketservice\presentation\cli\commandhandler\MovieCommandHandlerTest.class

@@ -15,9 +15,9 @@ public class MovieCommandHandler {
     private MovieService movieCommandsService;
 
     @Autowired
-<span class="nc" id="L18">    public MovieCommandHandler(MovieService movieCommandsService) {</span>
-<span class="nc" id="L19">        this.movieCommandsService = movieCommandsService;</span>
-<span class="nc" id="L20">    }</span>
+<span class="fc" id="L18">    public MovieCommandHandler(MovieService movieCommandsService) {</span>
+<span class="fc" id="L19">        this.movieCommandsService = movieCommandsService;</span>
+<span class="fc" id="L20">    }</span>
 
 
     @ShellMethod(value = &quot;create movie &lt;film címe&gt; &lt;műfaj&gt; &lt;vetítés hossza percben&gt;&quot;, key = &quot;create movie&quot;)
@@ -27,19 +27,19 @@ public class MovieCommandHandler {
 
     @ShellMethod(value = &quot;Lists all the movies&quot;, key = &quot;list movies&quot;)
     public String listMovies() {
-<span class="nc" id="L30">        List&lt;Movie&gt; movies = movieCommandsService.listMovies();</span>
+<span class="fc" id="L30">        List&lt;Movie&gt; movies = movieCommandsService.listMovies();</span>
 
-<span class="nc bnc" id="L32" title="All 2 branches missed.">        if (movies.isEmpty()) {</span>
-<span class="nc" id="L33">            return &quot;There are no movies at the moment&quot;;</span>
+<span class="fc bfc" id="L32" title="All 2 branches covered.">        if (movies.isEmpty()) {</span>
+<span class="fc" id="L33">            return &quot;There are no movies at the moment&quot;;</span>
         }
 
-<span class="nc" id="L36">        StringBuilder output = new StringBuilder();</span>
-<span class="nc bnc" id="L37" title="All 2 branches missed.">        for (Movie m : movies) {</span>
-<span class="nc" id="L38">            output.append(String.format(&quot;%s (%s, %d minutes)\n&quot;,</span>
-<span class="nc" id="L39">                    m.getTitle(), m.getGenre(), m.getLength()));</span>
-<span class="nc" id="L40">        }</span>
+<span class="fc" id="L36">        StringBuilder output = new StringBuilder();</span>
+<span class="fc bfc" id="L37" title="All 2 branches covered.">        for (Movie m : movies) {</span>
+<span class="fc" id="L38">            output.append(String.format(&quot;%s (%s, %d minutes)\n&quot;,</span>
+<span class="fc" id="L39">                    m.getTitle(), m.getGenre(), m.getLength()));</span>
+<span class="fc" id="L40">        }</span>
 
-<span class="nc" id="L42">        return output.toString();</span>
+<span class="fc" id="L42">        return output.toString();</span>
     }
 
     //TODO

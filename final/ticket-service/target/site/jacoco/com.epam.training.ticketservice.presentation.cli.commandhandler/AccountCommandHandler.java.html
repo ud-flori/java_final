@@ -13,17 +13,17 @@ public class AccountCommandHandler {
     private AccountService loginService;
 
     @Autowired
-<span class="nc" id="L16">    public AccountCommandHandler(AccountService loginService) {</span>
-<span class="nc" id="L17">        this.loginService = loginService;</span>
-<span class="nc" id="L18">    }</span>
+<span class="fc" id="L16">    public AccountCommandHandler(AccountService loginService) {</span>
+<span class="fc" id="L17">        this.loginService = loginService;</span>
+<span class="fc" id="L18">    }</span>
 
     @ShellMethod(value = &quot;Sign in as admin user&quot;, key = &quot;sign in privileged&quot;)
     public String signInAsPrivileged(String username, String password) {
-<span class="nc" id="L22">        boolean success = loginService.signIn(username,password);</span>
-<span class="nc bnc" id="L23" title="All 2 branches missed.">        if (success) {</span>
-<span class="nc" id="L24">            return &quot;Signed in&quot;;</span>
+<span class="fc" id="L22">        boolean success = loginService.signIn(username,password);</span>
+<span class="fc bfc" id="L23" title="All 2 branches covered.">        if (success) {</span>
+<span class="fc" id="L24">            return &quot;Signed in&quot;;</span>
         }
-<span class="nc" id="L26">        return &quot;Login failed due to incorrect credentials&quot;;</span>
+<span class="fc" id="L26">        return &quot;Login failed due to incorrect credentials&quot;;</span>
 
     }
 
@@ -34,11 +34,11 @@ public class AccountCommandHandler {
 
     @ShellMethod(value = &quot;Describe account&quot;, key = &quot;describe account&quot;)
     public String describeAccount() {
-<span class="nc" id="L37">        String user = loginService.getUsername();</span>
-<span class="nc bnc" id="L38" title="All 2 branches missed.">        if (user.isEmpty()) {</span>
-<span class="nc" id="L39">            return &quot;You are not signed in&quot;;</span>
+<span class="fc" id="L37">        String user = loginService.getUsername();</span>
+<span class="fc bfc" id="L38" title="All 2 branches covered.">        if (user.isEmpty()) {</span>
+<span class="fc" id="L39">            return &quot;You are not signed in&quot;;</span>
         }
-<span class="nc" id="L41">        return String.format(&quot;Signed in with privileged account '%s'&quot;, user);</span>
+<span class="fc" id="L41">        return String.format(&quot;Signed in with privileged account '%s'&quot;, user);</span>
     }
 
 

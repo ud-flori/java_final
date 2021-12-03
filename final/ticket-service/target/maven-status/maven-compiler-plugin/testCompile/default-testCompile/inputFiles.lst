@@ -1,8 +1,12 @@
 C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\test\java\com\epam\training\ticketservice\domain\theatre\MovieTest.java
 C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\test\java\com\epam\training\ticketservice\domain\theatre\ScreeningTest.java
 C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\test\java\com\epam\training\ticketservice\service\impl\AdminAccountTest.java
+C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\test\java\com\epam\training\ticketservice\presentation\cli\commandhandler\MovieCommandHandlerTest.java
 C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\test\java\com\epam\training\ticketservice\service\impl\AccountServiceImplTest.java
 C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\test\java\com\epam\training\ticketservice\service\impl\RoomServiceImplTest.java
 C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\test\java\com\epam\training\ticketservice\domain\theatre\RoomTest.java
 C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\test\java\com\epam\training\ticketservice\service\impl\MovieServiceImplTest.java
+C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\test\java\com\epam\training\ticketservice\domain\theatre\ScreeningInformationTest.java
+C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\test\java\com\epam\training\ticketservice\presentation\cli\commandhandler\RoomCommandHandlerTest.java
 C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\test\java\com\epam\training\ticketservice\service\impl\ScreeningServiceImplTest.java
+C:\Users\flori\OneDrive\Documents\GitHub\java_final\final\ticket-service\src\test\java\com\epam\training\ticketservice\presentation\cli\commandhandler\AccountCommandHandlerTest.java
