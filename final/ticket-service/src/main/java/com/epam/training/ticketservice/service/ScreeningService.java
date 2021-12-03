@@ -2,14 +2,14 @@ package com.epam.training.ticketservice.service;
 
 import com.epam.training.ticketservice.domain.theatre.Screening;
 
-import java.util.Date;
+import java.text.ParseException;
 import java.util.List;
 
 public interface ScreeningService {
 
-    void createScreening(String movieTitle, String roomName, Date startDateAndTime, String token);
+    String createScreening(String movieTitle, String roomName, String startDateAndTime) throws ParseException;
 
     List<Screening> getAllScreenings();
 
-    void deleteScreening(String movieTitle, String roomName, Date startDateAndTime, String token);
+    void deleteScreening(String movieTitle, String roomName, String startDateAndTime) throws  ParseException;
 }

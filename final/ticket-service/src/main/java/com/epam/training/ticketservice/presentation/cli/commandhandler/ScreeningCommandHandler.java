@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.shell.standard.ShellComponent;
 import org.springframework.shell.standard.ShellMethod;
 
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.List;
 
@@ -23,8 +24,8 @@ public class ScreeningCommandHandler {
 
     @ShellMethod(value = "create screening <film címe> <terem neve> <vetítés kezdetének dátuma és ideje, "
             + "YYYY-MM-dd HH:mm formátumban>", key = "create screening")
-    public void createScreening(String movieTitle, String roomName, String startDateAndTime) {
-       // screeningCommandService.createScreening(movieTitle,roomName,startDateAndTime);
+    public String createScreening(String movieTitle, String roomName, String startDateAndTime) throws ParseException {
+       return screeningCommandService.createScreening(movieTitle,roomName,startDateAndTime);
     }
 
     @ShellMethod(value = "Lists all the screenings", key = "list screenings")
@@ -50,7 +51,7 @@ public class ScreeningCommandHandler {
 
     @ShellMethod(value = "delete screening <film címe> <terem neve> <vetítés kezdetének dátuma és ideje, "
             + "YYYY-MM-dd HH:mm formátumban>", key = "delete screening")
-    public void deleteScreening(String movieTitle, String roomName, String startDateAndTime) {
-        //screeningCommandService.deleteScreening(movieTitle,roomName,startDateAndTime);
+    public void deleteScreening(String movieTitle, String roomName, String startDateAndTime) throws ParseException {
+       screeningCommandService.deleteScreening(movieTitle,roomName,startDateAndTime);
     }
 }

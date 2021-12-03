@@ -23,7 +23,7 @@ public class AccountCommandHandler {
         if(success){
             return "Signed in";
         }
-        return "Invalid credentials";
+        return "Login failed due to incorrect credentials";
 
     }
 

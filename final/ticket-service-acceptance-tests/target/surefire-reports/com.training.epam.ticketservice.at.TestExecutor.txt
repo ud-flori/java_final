@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.training.epam.ticketservice.at.TestExecutor
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 120.875 sec <<< FAILURE!
+The admin can not create screenings during a 10 minute long breaks after another screening in the same room(allows creating, deleting and listing screenings)  Time elapsed: 7.338 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: "This would start in the break period after another screening in this room"
+     but: was "Screening created"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.training.epam.ticketservice.at.GenericCliProcessStepDefs.theNextLineOfOutputContains(GenericCliProcessStepDefs.java:43)
+	at ✽.the next line of the output is "This would start in the break period after another screening in this room"(file:///C:/Users/flori/OneDrive/Documents/GitHub/java_final/final/ticket-service-acceptance-tests/src/test/resources/features/screenings.feature:44)
+

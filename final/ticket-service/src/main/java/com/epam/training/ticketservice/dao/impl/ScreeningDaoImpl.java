@@ -56,22 +56,21 @@ public class ScreeningDaoImpl implements ScreeningDao {
                 .map(entity -> {
                             MovieEntity movieEntity = movieRepository.findById(entity.getFilmTitle()).get();
                             RoomEntity roomEntity = roomRepository.findById(entity.getRoomName()).get();
-
-                            return new Screening(
-                                    new Movie(
-                                            movieEntity.getTitle(),
-                                            movieEntity.getGenre(),
-                                            movieEntity.getLength()
-                                    ),
-                                    new Room(
-                                            roomEntity.getName(),
-                                            roomEntity.getRows(),
-                                            roomEntity.getColumns()
-                                    ),
-                                    new Date(entity.getStartDateAndTime().getTime())
-                            );
+                                return new Screening(
+                                        new Movie(
+                                                movieEntity.getTitle(),
+                                                movieEntity.getGenre(),
+                                                movieEntity.getLength()
+                                        ),
+                                        new Room(
+                                                roomEntity.getName(),
+                                                roomEntity.getRows(),
+                                                roomEntity.getColumns()
+                                        ),
+                                        new Date(entity.getStartDateAndTime().getTime())
+                                );
                         }
-                ).collect(Collectors.toList());
+                    ).collect(Collectors.toList());
     }
 
 

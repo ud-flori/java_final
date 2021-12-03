@@ -99,3 +99,162 @@
 1638479843288:list movies
 1638479851273:list rooms
 1638479858214:create room Terem 12 25
+1638480012064:create movie Interstellar scifi 120
+1638480014806:list movies
+1638480046974:sign in privileged admin admin
+1638480054240:create movie Interstellar scifi 120
+1638480056190:list movies
+1638480065986:update movie Interstellar horror 240
+1638480067958:list movies
+1638480204014:stacktrace
+1638480271235:create room Terem 2 2
+1638480273223:list rooms
+1638480278785:sign in privileged admin admin
+1638480282527:create room Terem 2 2
+1638480284719:list rooms
+1638480344087:update room Terem 3 3
+1638480345862:list rooms
+1638480351246:sign out
+1638480355256:delete room Terem
+1638480357503:list rooms
+1638480363792:sign in privileged admin admin
+1638480366846:delete room Terem
+1638480368542:list rooms
+1638480371006:sign out
+1638480372998:list rooms
+1638480375798:exit
+1638523222206:create movie Sprited Away animation 125
+1638523251697:create movie "Spirited Away" animation 125
+1638523254326:list movies
+1638523260889:sign in privileged admin admin
+1638523264059:list movies
+1638523317924:sign in privileged admin admin
+1638523329600:create movie "Spirited Away" animation 125
+1638523332041:list movies
+1638523341798:sign out
+1638523348359:sign in privileged admin nimda
+1638523370363:describe account
+1638523382808:sign in privileged admin admin
+1638523387702:describe account
+1638523404096:create movie Sátántangó drama 450
+1638523409607:list movies
+1638523427602:update movie Sátántangó scifi 120
+1638523430550:list movies
+1638523438718:sign out
+1638523445879:update movie Sátántangó asd 45
+1638523448134:list movies
+1638523463384:delete movie Sátántangó
+1638523465214:list movies
+1638523470650:sign in privileged admin admin
+1638523475991:delete movie Sátántangó
+1638523477694:list movies
+1638523496168:sign out
+1638523498342:list rooms
+1638523508719:create room Horrorterem 10 10
+1638523510573:list rooms
+1638523518103:sign in privileged admin admin
+1638523524439:create room Horrorterem 10 10
+1638523528445:list rooms
+1638523535361:sign out
+1638523541703:update room Horrorterem 12 12
+1638523545286:delete room Horrorterem
+1638523546685:list rooms
+1638523552191:sign in privileged admin admin
+1638523562364:update room Horrorterem 24 24
+1638523564718:list rooms
+1638523569950:delete room Horrorterem
+1638523571774:list rooms
+1638523593214:create room Meseterem 20 20
+1638523596598:list rooms
+1638523599666:list screens
+1638523602709:list screening
+1638523605783:list screenings
+1638523643832:create screening "Spirited Away" Meseterem "021-03-14 16:00"
+1638523646406:list screenings
+1638523664936:create screening "Spirited Away" Meseterem "2021-03-14 16:00"
+1638523667447:list screenings
+1638523985803:sign in privileged admin admin
+1638524000185:create movie Interstellar scifi 120
+1638524010512:create room Room 10 10
+1638524012068:list rooms
+1638524015086:list movies
+1638524087180:sign in privileged admin admin
+1638524098865:create movie Interstellar scifi 120
+1638524106338:create room Inter 10 10
+1638524125522:create screening Interstellar Inter "2021-12-20 16:00"
+1638524127894:list screenings
+1638524183708:sign in privileged admin admin
+1638524192408:create movie Interstellar scifi 120
+1638524199953:create room Inter 10 10
+1638524320610:create screening Interstellar Inter "2021-12-15 16:00"
+1638524324563:list screenings
+1638524362371:create movie Interstellar scifi 120
+1638524370167:create room Inter 10 10
+1638524391474:create screening Interstellar Inter "2021-12-20 16:00"
+1638524401534:describe account
+1638524406728:sign in privileged admin admin
+1638524410962:describe account
+1638524413655:list movies
+1638524422288:create movie Interstellar scifi 120
+1638524432911:create movie Inter 10 10
+1638524446385:create screening Interstellar Inter "2021-12-30 16:00"
+1638524450407:describe account
+1638524483654:list movies
+1638524486872:list rooms
+1638524495822:create room Inter 10 10
+1638524499686:list rooms
+1638524513895:create screening Interstellar Inter "2021-12-30 16:00"
+1638524599743:list screening
+1638524603335:list screenings
+1638524713989:sign in privileged admin admin
+1638524719576:create movie Interstellar scifi 120
+1638524727008:create room Room 10 10
+1638524758138:create screening Interstellar Room "2021-12-30 16:00"
+1638524765236:list screening
+1638524768431:list screenings
+1638524816788:sign in privileged admin admin
+1638524944704:create movie A a 1
+1638524950556:create room B 10 10
+1638524966833:create screening A B "2021-12-30 15:00"
+1638525029065:sign in privileged admin admin
+1638525039370:create movie Interstellar scifi 120
+1638525044816:create room Room 15 15
+1638525060586:create screening Interstellar Room "2021-12-30 16:00"
+1638525168293:create movie Interstellar scifi 120
+1638525172424:list movies
+1638525176641:sign in privileged admin admin
+1638525181537:create movie Interstellar scifi 120
+1638525185023:create room Room 10 10
+1638525197338:create screening Interstellar Room "2021-12-30 16:00"
+1638525292199:sign in privileged admin admin
+1638525300816:create movie A a 120
+1638525307408:create room B 10 10
+1638525326539:create screening A B "2021-12-30 16:00"
+1638525440270:sign in privileged admin admin
+1638525446473:create movie Interstellar scifi 120
+1638525451096:create room Room 10 10
+1638525462763:create screening Interstellar Room "2021-12-30 15:00"
+1638525466007:list screenings
+1638525490105:create mobie Time horror 80
+1638525496472:create movie Time horror 80
+1638525498791:list movies
+1638525512396:create screening Time Room "2021-12-30 16:00"
+1638525549345:create screening Time Room "2021-12-30 18:05"
+1638525554399:list screenings
+1638525572785:delete Screening Time Room "2021-12-30 18:05"
+1638525580332:delete screening Time Room "2021-12-30 18:05"
+1638525582912:list screenings
+1638525598217:create screening Time Room "2021-12-30 17:05"
+1638525626151:exit
+1638527866686:sign in privileged
+1638527888875:sign in privileged admin admin
+1638527900809:create movie Satantango drama 450
+1638527908338:create room Pedersoli 10 10
+1638527929766:create movie "Spirit" animation 125
+1638527964213:create screening Satantango Pedersoli "2021-03-15 11:00"
+1638527967335:list screenings
+1638527985732:create screening Spirit Pedersoli "2021-03-15 18:39"
+1638528001110:list screenings
+1638528027403:delete screnning Satantango Peesoli "2021-03-15 11:00"
+1638528040835:delete screening Satantango Pedersoli "2021-03-15 11:00"
+1638528043650:list screenings
