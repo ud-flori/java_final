@@ -28,24 +28,30 @@ public class MovieServiceImpl implements MovieService {
     }
 
     @Override
-    public void createMovie(String title, String genre, int length) {
-        if(admin.isSignedIn()) {
+    public boolean createMovie(String title, String genre, int length) {
+        if (admin.isSignedIn()) {
             movieDao.createMovie(new Movie(title, genre, length));
+            return true;
         }
+        return false;
     }
 
     @Override
-    public void updateMovie(String title, String genre, int length) {
-        if(admin.isSignedIn()) {
+    public boolean updateMovie(String title, String genre, int length) {
+        if (admin.isSignedIn()) {
             movieDao.updateMovie(new Movie(title, genre, length));
+            return true;
         }
+        return false;
     }
 
     @Override
-    public void deleteMovie(String title) {
-        if(admin.isSignedIn()) {
+    public boolean deleteMovie(String title) {
+        if (admin.isSignedIn()) {
             movieDao.deleteMovie(title);
+            return true;
         }
+        return false;
     }
 
 

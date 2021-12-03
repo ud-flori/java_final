@@ -52,6 +52,6 @@ public class ScreeningCommandHandler {
     @ShellMethod(value = "delete screening <film címe> <terem neve> <vetítés kezdetének dátuma és ideje, "
             + "YYYY-MM-dd HH:mm formátumban>", key = "delete screening")
     public void deleteScreening(String movieTitle, String roomName, String startDateAndTime) throws ParseException {
-       screeningCommandService.deleteScreening(movieTitle,roomName,startDateAndTime);
+        screeningCommandService.deleteScreening(movieTitle,roomName,startDateAndTime);
     }
 }

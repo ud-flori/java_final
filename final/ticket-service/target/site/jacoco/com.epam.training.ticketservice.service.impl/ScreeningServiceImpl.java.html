@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="hu"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>ScreeningServiceImpl.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">ticket-service</a> &gt; <a href="index.source.html" class="el_package">com.epam.training.ticketservice.service.impl</a> &gt; <span class="el_source">ScreeningServiceImpl.java</span></div><h1>ScreeningServiceImpl.java</h1><pre class="source lang-java linenums">package com.epam.training.ticketservice.service.impl;
+
+import com.epam.training.ticketservice.dao.MovieDao;
+import com.epam.training.ticketservice.dao.ScreeningDao;
+import com.epam.training.ticketservice.domain.theatre.Movie;
+import com.epam.training.ticketservice.domain.theatre.Room;
+import com.epam.training.ticketservice.domain.theatre.Screening;
+import com.epam.training.ticketservice.domain.theatre.ScreeningInformation;
+import com.epam.training.ticketservice.service.MovieService;
+import com.epam.training.ticketservice.service.RoomService;
+import com.epam.training.ticketservice.service.ScreeningService;
+import com.epam.training.ticketservice.service.component.AdminAccount;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.List;
+
+@Service
+public class ScreeningServiceImpl implements ScreeningService {
+
+    private ScreeningDao screeningDao;
+    private AdminAccount admin;
+    private MovieService movieCommandsService;
+    private RoomService roomCommandsService;
+
+    @Autowired
+    public ScreeningServiceImpl(ScreeningDao screeningDao, AdminAccount admin,
+<span class="fc" id="L34">                                MovieService movieCommandService, RoomService roomCommandsService) {</span>
+<span class="fc" id="L35">        this.screeningDao = screeningDao;</span>
+<span class="fc" id="L36">        this.admin = admin;</span>
+<span class="fc" id="L37">        this.movieCommandsService = movieCommandService;</span>
+<span class="fc" id="L38">        this.roomCommandsService = roomCommandsService;</span>
+<span class="fc" id="L39">    }</span>
+
+    @Override
+    public String createScreening(String movieTitle, String roomName, String startDateAndTimeString)
+            throws ParseException {
+<span class="fc bfc" id="L44" title="All 2 branches covered.">        if (admin.isSignedIn()) {</span>
+<span class="fc" id="L45">            Date startDateAndTime = new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm&quot;).parse(startDateAndTimeString);</span>
+<span class="pc bpc" id="L46" title="1 of 2 branches missed.">            for (Screening sc : getAllScreenings()) {</span>
+<span class="nc" id="L47">                long timeDiff = (startDateAndTime.getTime() - sc.getStartDateAndTime().getTime()) / 60000;</span>
+<span class="nc bnc" id="L48" title="All 4 branches missed.">                if (roomName.equals(sc.getRoom().getName())</span>
+                        &amp;&amp; timeDiff &gt;= 0
+<span class="nc bnc" id="L50" title="All 2 branches missed.">                        &amp;&amp; timeDiff &lt; sc.getMovie().getLength() + 10) {</span>
+<span class="nc bnc" id="L51" title="All 2 branches missed.">                    if (timeDiff &lt; sc.getMovie().getLength()) {</span>
+<span class="nc" id="L52">                        return &quot;There is an overlapping screening&quot;;</span>
+                    }
+<span class="nc" id="L54">                    return &quot;This would start in the break period after another screening in this room&quot;;</span>
+                }
+<span class="nc" id="L56">            }</span>
+
+<span class="fc" id="L58">            screeningDao.createScreening(new ScreeningInformation(movieTitle, roomName, startDateAndTime));</span>
+<span class="fc" id="L59">            return &quot;&quot;;</span>
+        }
+
+<span class="fc" id="L62">        return &quot;Screening has not created.&quot;;</span>
+    }
+
+    @Override
+    public List&lt;Screening&gt; getAllScreenings() {
+<span class="fc" id="L67">        return List.copyOf(screeningDao.readAll());</span>
+    }
+
+
+    @Override
+    public boolean deleteScreening(String movieTitle, String roomName, String startDateAndTimeString)
+            throws ParseException {
+<span class="fc bfc" id="L74" title="All 2 branches covered.">        if (admin.isSignedIn()) {</span>
+<span class="fc" id="L75">            Date startDateAndTime =  new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm&quot;).parse(startDateAndTimeString);</span>
+<span class="fc" id="L76">            screeningDao.deleteScreening(new ScreeningInformation(movieTitle, roomName, startDateAndTime));</span>
+<span class="fc" id="L77">            return true;</span>
+        }
+<span class="fc" id="L79">        return false;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>

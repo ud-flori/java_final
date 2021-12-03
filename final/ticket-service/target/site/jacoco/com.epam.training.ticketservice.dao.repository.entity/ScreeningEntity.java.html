@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="hu"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>ScreeningEntity.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">ticket-service</a> &gt; <a href="index.source.html" class="el_package">com.epam.training.ticketservice.dao.repository.entity</a> &gt; <span class="el_source">ScreeningEntity.java</span></div><h1>ScreeningEntity.java</h1><pre class="source lang-java linenums">package com.epam.training.ticketservice.dao.repository.entity;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Column;
+import javax.persistence.IdClass;
+import javax.persistence.Table;
+import java.sql.Timestamp;
+
+@Entity
+@IdClass(ScreeningId.class)
+@Table(name = &quot;screening&quot;)
+public class ScreeningEntity {
+
+    @Id
+    @Column(name = &quot;film_title&quot;)
+    private String filmTitle;
+
+    @Id
+    @Column(name = &quot;room_name&quot;)
+    private String roomName;
+
+    @Id
+    @Column(name = &quot;start_date_and_time&quot;)
+    private Timestamp startDateAndTime;
+
+<span class="nc" id="L27">    public ScreeningEntity() {</span>
+<span class="nc" id="L28">    }</span>
+
+<span class="nc" id="L30">    public ScreeningEntity(String filmTitle, String roomName, Timestamp startDateAndTime) {</span>
+<span class="nc" id="L31">        this.filmTitle = filmTitle;</span>
+<span class="nc" id="L32">        this.roomName = roomName;</span>
+<span class="nc" id="L33">        this.startDateAndTime = startDateAndTime;</span>
+<span class="nc" id="L34">    }</span>
+
+    public String getFilmTitle() {
+<span class="nc" id="L37">        return filmTitle;</span>
+    }
+
+    public String getRoomName() {
+<span class="nc" id="L41">        return roomName;</span>
+    }
+
+    public Timestamp getStartDateAndTime() {
+<span class="nc" id="L45">        return startDateAndTime;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>

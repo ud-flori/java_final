@@ -8,10 +8,10 @@ public interface MovieService {
 
     List<Movie> listMovies();
 
-    void createMovie(String title, String genre, int length);
+    boolean createMovie(String title, String genre, int length);
 
-    void updateMovie(String title, String genre, int length);
+    boolean updateMovie(String title, String genre, int length);
 
-    void deleteMovie(String title);
+    boolean deleteMovie(String title);
 
 }

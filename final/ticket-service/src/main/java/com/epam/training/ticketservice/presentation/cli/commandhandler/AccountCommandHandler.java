@@ -18,9 +18,9 @@ public class AccountCommandHandler {
     }
 
     @ShellMethod(value = "Sign in as admin user", key = "sign in privileged")
-    public String signInAsPrivileged(String username, String password){
+    public String signInAsPrivileged(String username, String password) {
         boolean success = loginService.signIn(username,password);
-        if(success){
+        if (success) {
             return "Signed in";
         }
         return "Login failed due to incorrect credentials";
@@ -28,14 +28,14 @@ public class AccountCommandHandler {
     }
 
     @ShellMethod(value = "Sign out", key = "sign out")
-    public void signOutAsPrivileged(){
+    public void signOutAsPrivileged() {
         loginService.signOut();
     }
 
     @ShellMethod(value = "Describe account", key = "describe account")
-    public String describeAccount(){
+    public String describeAccount() {
         String user = loginService.getUsername();
-        if(user.isEmpty()){
+        if (user.isEmpty()) {
             return "You are not signed in";
         }
         return String.format("Signed in with privileged account '%s'", user);

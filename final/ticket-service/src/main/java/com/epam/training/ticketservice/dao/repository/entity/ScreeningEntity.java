@@ -1,6 +1,10 @@
 package com.epam.training.ticketservice.dao.repository.entity;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Column;
+import javax.persistence.IdClass;
+import javax.persistence.Table;
 import java.sql.Timestamp;
 
 @Entity

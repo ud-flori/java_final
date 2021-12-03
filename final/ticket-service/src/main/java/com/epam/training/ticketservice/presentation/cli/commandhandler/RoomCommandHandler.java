@@ -20,7 +20,7 @@ public class RoomCommandHandler {
 
     @ShellMethod(value = "create room <terem neve> <széksorok száma> <szék oszlopok száma>", key = "create room")
     public void createRoom(String name, int rows, int columns) {
-      roomCommandsService.createRoom(name,rows,columns);
+        roomCommandsService.createRoom(name,rows,columns);
     }
 
     @ShellMethod(value = "Lists all the rooms", key = "list rooms")

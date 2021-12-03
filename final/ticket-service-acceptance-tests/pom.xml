@@ -12,10 +12,10 @@
     <artifactId>ticket-service-acceptance-tests</artifactId>
 
     <properties>
-        <cucumber.version>6.9.1</cucumber.version>
-        <junit.version>5.7.1</junit.version>
-        <guava.version>30.0-jre</guava.version>
-        <slf4j.version>1.7.30</slf4j.version>
+        <cucumber.version>7.1.0</cucumber.version>
+        <junit.version>5.8.1</junit.version>
+        <guava.version>31.0.1-jre</guava.version>
+        <slf4j.version>1.7.32</slf4j.version>
     </properties>
 
     <dependencies>

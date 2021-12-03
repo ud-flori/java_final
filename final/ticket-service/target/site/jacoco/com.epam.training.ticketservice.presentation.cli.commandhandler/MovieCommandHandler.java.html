@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="hu"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>MovieCommandHandler.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">ticket-service</a> &gt; <a href="index.source.html" class="el_package">com.epam.training.ticketservice.presentation.cli.commandhandler</a> &gt; <span class="el_source">MovieCommandHandler.java</span></div><h1>MovieCommandHandler.java</h1><pre class="source lang-java linenums">package com.epam.training.ticketservice.presentation.cli.commandhandler;
+
+
+import com.epam.training.ticketservice.domain.theatre.Movie;
+import com.epam.training.ticketservice.service.MovieService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.shell.standard.ShellComponent;
+import org.springframework.shell.standard.ShellMethod;
+
+import java.util.List;
+
+@ShellComponent
+public class MovieCommandHandler {
+
+    private MovieService movieCommandsService;
+
+    @Autowired
+<span class="nc" id="L18">    public MovieCommandHandler(MovieService movieCommandsService) {</span>
+<span class="nc" id="L19">        this.movieCommandsService = movieCommandsService;</span>
+<span class="nc" id="L20">    }</span>
+
+
+    @ShellMethod(value = &quot;create movie &lt;film címe&gt; &lt;műfaj&gt; &lt;vetítés hossza percben&gt;&quot;, key = &quot;create movie&quot;)
+    public void createMovie(String title, String genre, int length) {
+<span class="nc" id="L25">        movieCommandsService.createMovie(title, genre, length);</span>
+<span class="nc" id="L26">    }</span>
+
+    @ShellMethod(value = &quot;Lists all the movies&quot;, key = &quot;list movies&quot;)
+    public String listMovies() {
+<span class="nc" id="L30">        List&lt;Movie&gt; movies = movieCommandsService.listMovies();</span>
+
+<span class="nc bnc" id="L32" title="All 2 branches missed.">        if (movies.isEmpty()) {</span>
+<span class="nc" id="L33">            return &quot;There are no movies at the moment&quot;;</span>
+        }
+
+<span class="nc" id="L36">        StringBuilder output = new StringBuilder();</span>
+<span class="nc bnc" id="L37" title="All 2 branches missed.">        for (Movie m : movies) {</span>
+<span class="nc" id="L38">            output.append(String.format(&quot;%s (%s, %d minutes)\n&quot;,</span>
+<span class="nc" id="L39">                    m.getTitle(), m.getGenre(), m.getLength()));</span>
+<span class="nc" id="L40">        }</span>
+
+<span class="nc" id="L42">        return output.toString();</span>
+    }
+
+    //TODO
+    @ShellMethod(value = &quot;update movie &lt;film címe&gt; &lt;műfaj&gt; &lt;vetítés hossza percben&gt;&quot;, key = &quot;update movie&quot;)
+    public void updateMovie(String title, String genre, int length) {
+<span class="nc" id="L48">        movieCommandsService.updateMovie(title,genre,length);</span>
+<span class="nc" id="L49">    }</span>
+
+    //TODO
+    @ShellMethod(value = &quot;delete movie &lt;film címe&gt;&quot;, key = &quot;delete movie&quot;)
+    public void deleteMovie(String title) {
+<span class="nc" id="L54">        movieCommandsService.deleteMovie(title);</span>
+<span class="nc" id="L55">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>

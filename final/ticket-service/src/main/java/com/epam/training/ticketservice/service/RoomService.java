@@ -6,11 +6,11 @@ import java.util.List;
 
 public interface RoomService {
 
-    void createRoom(String name, int rows, int columns);
+    boolean createRoom(String name, int rows, int columns);
 
     List<Room> getAllRooms();
 
-    void updateRoom(String name, int rows, int columns);
+    boolean updateRoom(String name, int rows, int columns);
 
-    void deleteRoom(String name);
+    boolean deleteRoom(String name);
 }

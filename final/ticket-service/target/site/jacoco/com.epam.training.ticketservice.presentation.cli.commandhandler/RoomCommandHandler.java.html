@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="hu"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>RoomCommandHandler.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">ticket-service</a> &gt; <a href="index.source.html" class="el_package">com.epam.training.ticketservice.presentation.cli.commandhandler</a> &gt; <span class="el_source">RoomCommandHandler.java</span></div><h1>RoomCommandHandler.java</h1><pre class="source lang-java linenums">package com.epam.training.ticketservice.presentation.cli.commandhandler;
+
+import com.epam.training.ticketservice.domain.theatre.Room;
+import com.epam.training.ticketservice.service.RoomService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.shell.standard.ShellComponent;
+import org.springframework.shell.standard.ShellMethod;
+
+import java.util.List;
+
+@ShellComponent
+public class RoomCommandHandler {
+
+    private RoomService roomCommandsService;
+
+    @Autowired
+<span class="nc" id="L17">    public RoomCommandHandler(RoomService roomCommandsService) {</span>
+<span class="nc" id="L18">        this.roomCommandsService = roomCommandsService;</span>
+<span class="nc" id="L19">    }</span>
+
+    @ShellMethod(value = &quot;create room &lt;terem neve&gt; &lt;széksorok száma&gt; &lt;szék oszlopok száma&gt;&quot;, key = &quot;create room&quot;)
+    public void createRoom(String name, int rows, int columns) {
+<span class="nc" id="L23">        roomCommandsService.createRoom(name,rows,columns);</span>
+<span class="nc" id="L24">    }</span>
+
+    @ShellMethod(value = &quot;Lists all the rooms&quot;, key = &quot;list rooms&quot;)
+    public String listRooms() {
+<span class="nc" id="L28">        List&lt;Room&gt; rooms = roomCommandsService.getAllRooms();</span>
+
+<span class="nc bnc" id="L30" title="All 2 branches missed.">        if (rooms.isEmpty()) {</span>
+<span class="nc" id="L31">            return &quot;There are no rooms at the moment&quot;;</span>
+        }
+
+<span class="nc" id="L34">        StringBuilder output = new StringBuilder();</span>
+<span class="nc bnc" id="L35" title="All 2 branches missed.">        for (Room r : rooms) {</span>
+<span class="nc" id="L36">            output.append(String.format(&quot;Room %s with %d seats, %d rows and %d columns\n&quot;,</span>
+<span class="nc" id="L37">                    r.getName(), r.getRows() * r.getColumns(), r.getRows(), r.getColumns()));</span>
+<span class="nc" id="L38">        }</span>
+
+<span class="nc" id="L40">        return output.toString();</span>
+    }
+
+
+    @ShellMethod(value = &quot;update room &lt;terem neve&gt; &lt;széksorok száma&gt; &lt;szék oszlopok száma&gt;&quot;, key = &quot;update room&quot;)
+    public void updateRoom(String name, int rows, int columns) {
+<span class="nc" id="L46">        roomCommandsService.updateRoom(name,rows,columns);</span>
+<span class="nc" id="L47">    }</span>
+
+    @ShellMethod(value = &quot;delete room &lt;terem neve&gt;&quot;, key = &quot;delete room&quot;)
+    public void deleteRoom(String name) {
+<span class="nc" id="L51">        roomCommandsService.deleteRoom(name);</span>
+<span class="nc" id="L52">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>

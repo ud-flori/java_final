@@ -23,10 +23,12 @@ public class RoomServiceImpl implements RoomService {
 
 
     @Override
-    public void createRoom(String name, int rows, int columns) {
-        if(admin.isSignedIn()){
-            roomDao.createRoom(new Room(name, rows, columns));
+    public boolean createRoom(String name, int rows, int columns) {
+        if (admin.isSignedIn()) {
+             roomDao.createRoom(new Room(name, rows, columns));
+             return true;
         }
+        return false;
     }
 
     @Override
@@ -35,16 +37,20 @@ public class RoomServiceImpl implements RoomService {
     }
 
     @Override
-    public void updateRoom(String name, int rows, int columns) {
-        if(admin.isSignedIn()){
+    public boolean updateRoom(String name, int rows, int columns) {
+        if (admin.isSignedIn()) {
             roomDao.updateRoom(new Room(name, rows, columns));
+            return true;
         }
+        return false;
     }
 
     @Override
-    public void deleteRoom(String name) {
-        if(admin.isSignedIn()){
+    public boolean deleteRoom(String name) {
+        if (admin.isSignedIn()) {
             roomDao.deleteRoom(name);
+            return true;
         }
+        return false;
     }
 }

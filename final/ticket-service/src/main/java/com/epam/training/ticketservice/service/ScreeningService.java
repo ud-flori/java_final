@@ -12,5 +12,5 @@ public interface ScreeningService {
 
     List<Screening> getAllScreenings();
 
-    void deleteScreening(String movieTitle, String roomName, String startDateAndTime) throws  ParseException;
+    boolean deleteScreening(String movieTitle, String roomName, String startDateAndTime) throws  ParseException;
 }

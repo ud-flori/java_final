@@ -54,9 +54,9 @@ public class ScreeningDaoImpl implements ScreeningDao {
     public Collection<Screening> readAll() {
         return StreamSupport.stream(screeningRepository.findAll().spliterator(), false)
                 .map(entity -> {
-                            MovieEntity movieEntity = movieRepository.findById(entity.getFilmTitle()).get();
-                            RoomEntity roomEntity = roomRepository.findById(entity.getRoomName()).get();
-                                return new Screening(
+                    MovieEntity movieEntity = movieRepository.findById(entity.getFilmTitle()).get();
+                    RoomEntity roomEntity = roomRepository.findById(entity.getRoomName()).get();
+                    return new Screening(
                                         new Movie(
                                                 movieEntity.getTitle(),
                                                 movieEntity.getGenre(),
@@ -69,7 +69,7 @@ public class ScreeningDaoImpl implements ScreeningDao {
                                         ),
                                         new Date(entity.getStartDateAndTime().getTime())
                                 );
-                        }
+                }
                     ).collect(Collectors.toList());
     }
 
