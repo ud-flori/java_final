@@ -258,3 +258,12 @@
 1638528027403:delete screnning Satantango Peesoli "2021-03-15 11:00"
 1638528040835:delete screening Satantango Pedersoli "2021-03-15 11:00"
 1638528043650:list screenings
+1638532123266:sign in privileged admin admin
+1638532132079:create movie Interstellar scifi 120
+1638532143365:create room
+1638532152205:create room Rom 15 15
+1638532154924:list rooms
+1638532204608:create screening Interstellar Rom "2021-03-15 11:00"
+1638532207416:list screening
+1638532211229:list screenings
+1638532265910:exit

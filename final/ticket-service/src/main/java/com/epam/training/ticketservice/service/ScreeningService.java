@@ -2,6 +2,7 @@ package com.epam.training.ticketservice.service;
 
 import com.epam.training.ticketservice.domain.theatre.Screening;
 
+import java.io.IOException;
 import java.text.ParseException;
 import java.util.List;
 

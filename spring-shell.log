@@ -1,0 +1,91 @@
+1638537323113:sign in privileged admin admin
+1638537328901:create movie Interstellar scifi 120
+1638537489346:list movies
+1638537609154:delete movie Interstellar
+1638537618344:create movie Interstellar scigi 120\\
+1638537623009:list movies
+1638537629178:delete Interstellar
+1638537633234:delete movie Interstellar
+1638537641590:create movie Interstellar scifi 120
+1638537918101:list movies
+1638537924074:sign in privileged admin admin
+1638537931588:create movie Interstellar scifi 120
+1638537933373:list movies
+1638539196953:sign in privileged admin admin
+1638539211412:create movie Interstellar scifi 120
+1638539218403:create room Room 10 10
+1638539231197:create screening Interstellar Room "2021-12-15 16:00"
+1638539268341:create movie Time horror 150
+1638539287154:create screening Time Room "2021-12-13 16:00"
+1638540071055:sign in privileged admin admin
+1638540080686:create movie Interstellar scifi 120
+1638540087333:create room First 10 10
+1638540104814:create screening Interstellar First "2021-12-12 16:00"
+1638540117334:create movie Time horror 100
+1638540134437:create screening Time First "2021-12-11 16:15"
+1638540155309:create screening Time First "021-11-12 15:45"
+1638540245992:sign in privileged admin admin
+1638540252620:create movie Interstellar scifi 120
+1638540258932:create room RoomOne 15 15
+1638540271069:create screening Interstellar RoomOne "2021-12-15 16:00"
+1638542315249:sign in privileged admin admin
+1638542326142:create riin Pedersoli 20 10
+1638542336165:create room Pedersoli 20 10
+1638542343853:create room Girotti 10 10
+1638542354048:create movie Sátántangó drama 450
+1638542372438:create "Spirited Away" animation 125
+1638542383422:create movie "Spirited Away" animation 125
+1638542393572:list movies
+1638542396852:list rooms
+1638542446423:create screening Sátántangó Pedersoli "2021-03-15 10:45"
+1638542475599:create screening "Spirited Away" Pedersoli "2021-03-15 10:50"
+1638542528837:list screenings
+1638542547939:sign out
+1638542554087:list screenings
+1638542567020:sign in privileged admin admin
+1638542646374:create screening \\"Spirited Away\\" Pedersoli \\"2021-03-15 10:50\\"
+1638542685702:reate screening \\"Spirited Away\\" Pedersoli \\"2021-03-15 10:50\\"
+1638542721703:create screening "Spirited Away" Pedersoli "2021-03-15 10:50"
+1638544679627:sign in privileged admin admin
+1638544686501:create room Pedersoli 20 10
+1638544691143:create room Girotti 10 10
+1638544703466:create movie Sátántangó drama 450
+1638544713705:create movie "Spirited Away" animation 125
+1638544715421:sign out
+1638544717869:list movies
+1638544722878:list rooms
+1638544733463:sign in privileged admin admin
+1638544753567:create screening Sátántangó Pedersoli "2021-03-15 10:45"
+1638544758193:list screenings
+1638544783552:create screening "Spirited Away" Pedersoli "2021-03-14 16:00"
+1638544787973:list screening
+1638544793582:list screenings
+1638544821670:sign out
+1638544828094:sign in privileged admin admin
+1638544897293:delete screening "Spirited Away" Pedersoli "2021-03-14 16:00"
+1638544899941:list screenings
+1638544934576:create screening "Spirited Away" Pedersoli "2021-03-15 10:50"
+1638544954394:list screening
+1638544958102:list screenings
+1638544972348:exit
+1638545004835:sign in privileged admin admin
+1638545012759:create room Pedersoli 20 10
+1638545018479:create room Girotti 10 10
+1638545045799:create movie Sátántangó drama 450
+1638545062360:create movie "Spirited Away" animation 125
+1638545066405:sign out
+1638545075006:sign in privileged admin admin
+1638545114809:create screening Sátántangó Pedersoli "2021-03-15 10:45"
+1638546074812:sign in privileged admin admin
+1638546081114:create movie Interstellar scifi 120
+1638546087967:create room Room 10 10
+1638546106874:create screening Interstellar Room "2021-12-30 15:00"
+1638548321694:sign in privileged admin admin
+1638548328195:create movie Interstellar scifi 120
+1638548334050:create room Room 15 15
+1638548347319:create screening Interstellar Room "2021-12-30 15:00"
+1638548351984:list screenings
+1638548408927:sign in privileged admin admin
+1638548419999:create movie Interstellar scifi 120\\
+1638548425409:create room Room 15 15
+1638548438487:create screening Interstellar Room "2021-12-30 15:00"

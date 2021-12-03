@@ -21,11 +21,11 @@ public class ScreeningCommandHandler {
         this.screeningCommandService = screeningCommandsService;
     }
 
-
     @ShellMethod(value = "create screening <film címe> <terem neve> <vetítés kezdetének dátuma és ideje, "
             + "YYYY-MM-dd HH:mm formátumban>", key = "create screening")
     public String createScreening(String movieTitle, String roomName, String startDateAndTime) throws ParseException {
-       return screeningCommandService.createScreening(movieTitle,roomName,startDateAndTime);
+        return screeningCommandService.createScreening(movieTitle,roomName,startDateAndTime);
+
     }
 
     @ShellMethod(value = "Lists all the screenings", key = "list screenings")

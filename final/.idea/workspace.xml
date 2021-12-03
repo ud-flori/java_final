@@ -7,23 +7,13 @@
     <list default="true" id="14a49317-1adc-4b12-955d-25c8927c8fcd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-shell.log" beforeDir="false" afterPath="$PROJECT_DIR$/spring-shell.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/dao/impl/ScreeningDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/dao/impl/ScreeningDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/presentation/cli/commandhandler/AccountCommandHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/presentation/cli/commandhandler/AccountCommandHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/presentation/cli/commandhandler/ScreeningCommandHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/presentation/cli/commandhandler/ScreeningCommandHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/ScreeningService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/ScreeningService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service-acceptance-tests/spring-shell.log" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service-acceptance-tests/spring-shell.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service-acceptance-tests/target/surefire-reports/TEST-com.training.epam.ticketservice.at.TestExecutor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service-acceptance-tests/target/surefire-reports/TEST-com.training.epam.ticketservice.at.TestExecutor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service-acceptance-tests/target/surefire-reports/com.training.epam.ticketservice.at.TestExecutor.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service-acceptance-tests/target/surefire-reports/com.training.epam.ticketservice.at.TestExecutor.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/impl/ScreeningServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/com/epam/training/ticketservice/service/impl/ScreeningServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/test/java/com/epam/training/ticketservice/service/impl/Flag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/test/java/com/epam/training/ticketservice/service/impl/MovieServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/test/java/com/epam/training/ticketservice/service/impl/RoomServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/test/java/com/epam/training/ticketservice/service/impl/ScreeningServiceImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ticket-service/target/checkstyle-cachefile" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/checkstyle-cachefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/checkstyle-result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/checkstyle-result.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/presentation/cli/commandhandler/AccountCommandHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/presentation/cli/commandhandler/AccountCommandHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/presentation/cli/commandhandler/ScreeningCommandHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/presentation/cli/commandhandler/ScreeningCommandHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/service/ScreeningService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/service/ScreeningService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/service/impl/ScreeningServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/classes/com/epam/training/ticketservice/service/impl/ScreeningServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/target/ticket-service-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/ticket-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service/target/ticket-service-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/target/ticket-service-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +82,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Feature: movies" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/ticket-service-acceptance-tests/src/test/resources/features/movies.feature" />
+      <option name="GLUE" value="com.training.epam.ticketservice.at" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="ticket-service-acceptance-tests" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: movies" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: rooms" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/ticket-service-acceptance-tests/src/test/resources/features/rooms.feature" />
+      <option name="GLUE" value="com.training.epam.ticketservice.at" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="ticket-service-acceptance-tests" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: rooms" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: screenings" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/ticket-service-acceptance-tests/src/test/resources/features/screenings.feature" />
@@ -131,27 +159,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestExecutor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ticket-service-acceptance-tests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.training.epam.ticketservice.at.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.training.epam.ticketservice.at" />
-      <option name="MAIN_CLASS_NAME" value="com.training.epam.ticketservice.at.TestExecutor" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber Java.Feature: screenings" />
         <item itemvalue="Application.CliApplication" />
+        <item itemvalue="Cucumber Java.Feature: movies" />
+        <item itemvalue="Cucumber Java.Feature: rooms" />
         <item itemvalue="Cucumber Java.Scenario: The admin can not create screenings during a 10 minute long breaks after another screening in the same room" />
-        <item itemvalue="JUnit.TestExecutor" />
       </list>
     </recent_temporary>
   </component>
