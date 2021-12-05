@@ -25,8 +25,8 @@ public class RoomServiceImpl implements RoomService {
     @Override
     public boolean createRoom(String name, int rows, int columns) {
         if (admin.isSignedIn()) {
-             roomDao.createRoom(new Room(name, rows, columns));
-             return true;
+            roomDao.createRoom(new Room(name, rows, columns));
+            return true;
         }
         return false;
     }
